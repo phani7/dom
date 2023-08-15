@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Simple E-commerce</title>
+</head>
+<body>
+  <header>
+    <h1>Simple E-commerce</h1>
+    <div id="cart">
+      <span>Cart:</span>
+      <span id="cart-items">0</span>
+    </div>
+  </header>
+  <main>
+    <div id="filters">
+      <label>Sort By:</label>
+      <select id="sort-select">
+        <option value="default">Default</option>
+        <option value="priceLowToHigh">Price Low to High</option>
+        <option value="priceHighToLow">Price High to Low</option>
+      </select>
+    </div>
+    <div id="products" class="product-list">
+      <!-- Product items will be added here using JavaScript -->
+    </div>
+  </main>
+  <footer>
+    <button id="checkout-btn">Checkout</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
